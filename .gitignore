@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+build/
+dist/
+demo_results/
+.env
+*.pem
+*.key
+*.zip
+*.tif
+*.tiff
+*.img
+*.dim
+*.filepart
+*.part

@@ -1,0 +1,27 @@
+{
+  "release": "0.1.0",
+  "scope": "core statistical functions only",
+  "functions": [
+    {
+      "function": "block_bootstrap",
+      "original_source_filename": "02_summarize_buffered_results.py",
+      "original_source_sha256": "b0205d07bc482f9ccf60ab5adef0d62ce750aa822e693a182eed17a31c33b775",
+      "extracted_function_sha256": "ae47451ea20985ae4c63f1e4841bb4b1c155913790a3ca7847a69dc0ca3cbbfe",
+      "numerical_body": "unchanged"
+    },
+    {
+      "function": "metrics",
+      "original_source_filename": "48_verify_single_update.py",
+      "original_source_sha256": "17527759649c6c95429e70fcc7615f8328e6469098da98762bd6f8e701ed9c3c",
+      "extracted_function_sha256": "05de463c98af6f35b3584fb95551938812b8effe9c391228514ae2ffe9d3de17",
+      "numerical_body": "unchanged"
+    },
+    {
+      "function": "metric",
+      "original_source_filename": "83_collect_injection_matrix.py",
+      "original_source_sha256": "eff54c0c09be9e2f38b484d44f4fc64fcb997b89190096965ac9091e376c4003",
+      "extracted_function_sha256": "3ed4269cb935bf94aabc2cae13e9df419cffad03b6174db23873f457db4e4c47",
+      "numerical_body": "unchanged"
+    }
+  ]
+}

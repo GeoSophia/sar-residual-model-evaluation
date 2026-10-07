@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sar-residual-model-evaluation"
+version = "0.1.0"
+description = "Core statistics for SAR residual-model evaluation"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+authors = [
+  {name = "Lin Xu"},
+  {name = "Xing Du"},
+  {name = "Zhen Li"},
+]
+dependencies = ["numpy>=1.26,<3", "pandas>=2.2,<4"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["sar_residual*"]
